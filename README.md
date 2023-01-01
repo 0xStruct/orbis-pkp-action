@@ -1,6 +1,7 @@
 # orbis-pkp-action
-If This Then That for Orbis
-automate Orbis SDK via Lit Protocol PKP's actions, triggered by numerous services of web2 and web3
+_If This Then That_ for Orbis
+to automate Orbis SDK via Lit Protocol PKP's actions, 
+triggered by numerous web2 and web3 services
 
 https://vimeo.com/785515999
 
@@ -8,7 +9,7 @@ example use-cases:
 - post scheduler (craft out posts and publish at the right moment in Google calendar)
 - retweet (watch a twitter account and retweet)
 - NFT sales bot
-- Announcement bots
+- channel announcement bots
 
 ## reference implementations
 
@@ -19,8 +20,12 @@ check out [pages/api/orbis-pkp-action](pages/api/orbis-pkp-action)
 
 ## how is it built?
 
-built using NextJS to setup API routes as files in the folder: [pages/api/orbis-pkp-action](pages/api/orbis-pkp-action)
+built using NextJS to setup API routes as files
+check the folder: [pages/api/orbis-pkp-action](pages/api/orbis-pkp-action) for the files
+
 one file is used to listen and process one webhook
+
+simple and straight forward :D
 
 `.env` is used to managed config privately which can easily configured (i.e Vercel, Netlify, Heroku)
 
@@ -29,13 +34,28 @@ webhook calls are then processed
 
 ## how to run
 
-`npm run dev` to run it locally
-to expose local instance to webhook calls, run ngrok
+to run it _locally_
+`npm run dev` 
+
+then to expose the local instance to the web
+run ngrok
 `ngrok http 3000`
 
 _ngrok_ will then give the web url
 use that web url to setup triggers
 
+to run it _on the web_
+deploy to any of your favorite host (Vercel, Netlify, Heroku, etc)
+
+Vercel runs the APIs as serverless functions,
+_but_ as the free plan has timeout of 5 secs
+sign up for a paid plan
+
 ## how to setup the post scheduler with IFTTT and Google Calender
 
-https://vimeo.com/785515999
+video guide will come here
+
+## how to setup NFT sales bot with Helius.xyz
+
+video guide will come here
+
