@@ -32,7 +32,7 @@ simple and straight forward :D
 triggers are setup via IFTTT, Zapier for web2 and Helius.xyz for web3.
 webhook calls are then processed
 
-## how to run
+## how to run locally
 
 to run it _locally_
 `npm run dev` 
@@ -44,8 +44,12 @@ run ngrok
 _ngrok_ will then give the web url
 use that web url to setup triggers
 
+## how to deploy to the web
+
 to run it _on the web_
 deploy to any of your favorite host (Vercel, Netlify, Heroku, etc)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F0xStruct%2Forbis-pkp-action)
 
 Vercel runs the APIs as serverless functions,
 _but_ as the free plan has timeout of 5 secs
@@ -53,9 +57,12 @@ sign up for a paid plan
 
 ## how to setup the post scheduler with IFTTT and Google Calender
 
-video guide will come here
+video guide will be here: https://vimeo.com/showcase/10085247
 
 ## how to setup NFT sales bot with Helius.xyz
 
-video guide will come here
+video guide will be here: https://vimeo.com/showcase/10085247
 
+## how to setup Twitter Retweet bot with IFTTT or Zapier
+
+video guide will be here: https://vimeo.com/showcase/10085247
